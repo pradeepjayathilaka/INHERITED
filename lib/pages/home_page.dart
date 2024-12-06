@@ -20,7 +20,8 @@ class _HomePageState extends State<HomePage> {
         children: [
           Center(
             child: Text("user $username",
-                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                style:
+                    const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
           ),
           ElevatedButton(
             onPressed: () {

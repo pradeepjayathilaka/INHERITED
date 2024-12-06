@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MyInheritedWidget(
       userName: 'Pradeep prasanna',
-      child: MaterialApp(
+      child: const MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Scaffold(
           body: HomePage(),
